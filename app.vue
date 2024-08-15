@@ -5,10 +5,14 @@
   </div>
 </template>
 
-<style scoped>
+<style>
 
   body {
-    background-color: white;
+    background-color: red;
   }
 
 </style>
+
+<script>
+  
+</script>
