@@ -14,5 +14,7 @@
 </style>
 
 <script>
-  
+  addOverlayListener('CombatData', (data) => {
+    console.log(`Encounter: ${data.title} | ${data.duration} | Total DPS: ${data.ENCDPS}`);
+  });
 </script>
